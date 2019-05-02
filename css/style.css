@@ -1,0 +1,100 @@
+html,body{
+    height: 100%;
+    background: gray;
+}
+.topnav{
+    background-color: rgba(52, 3, 80, 0.226);
+    overflow: hidden;
+}
+.topnav a{
+    float: right;
+     display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover{
+    background-color: #ead4eb;
+    color: rgb(241, 82, 207);
+}
+.topnav a.active{
+    background-color: #a56ea7;
+    color: floralwhite;
+}
+div.hero-image{
+    background-image: url(../img/Newbackground.jpg);
+    height:90%;
+    background-position: center;
+    background-repeat: repeat;
+ }
+ 
+ div.hero-image1{
+    background-image: url(../img/Newbackground.jpg);
+    height:90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ div.hero-text{
+     text-align: center;
+     position: absolute;
+     /* top: 50%; */
+     /* left:50%; */
+     transform: rotate(360);
+     color: Navy blue;
+     
+ }
+
+ div.hero-text h1{
+    font-size: 3em
+}
+ div.hero-text a button{
+     position: absolute;
+     left:50%;
+     color: blueviolet;
+     background: rgb(53, 40, 90);
+     border-color: rgb(67, 102, 141);
+     padding: 10px
+ }
+.description {
+max-width: 600px;
+text-align: center;
+margin: auto;
+}
+.description h2{
+    text-transform: capitalize
+}
+.coloumn {
+    float: left;
+    width: 33.33%;
+}
+.colunm img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row:after{
+    content:"";
+   s display: table;
+    clear: both;
+}
+footer{
+    background:rgba(52, 3, 80, 0.226);
+    text-align: center;
+    scroll-margin: 20px;
+}
+footer p{
+    color: antiquewhite
+
+}@media screen and (max-width: 600px){
+    .column {
+        width: 100%
+    }
+}
